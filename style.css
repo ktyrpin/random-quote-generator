@@ -1,0 +1,32 @@
+body {
+	background-color: lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	padding: 20px;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 2px solid #333;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 3);
+	cursor: pointer;
+}
+button:hover {
+	background-color: blueviolet;
+}
+.container {
+	text-align: center;
+	background-color: aliceblue;
+	padding: 5px;
+	border: 2px solid #333;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 3);
+}
+.quoteDisplay {
+	margin-top: 20px;
+}
